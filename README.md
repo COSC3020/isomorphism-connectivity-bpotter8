@@ -10,3 +10,31 @@ might help with the notation for mathematical expressions.
 $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
+
+Answer:
+
+Graph 1:
+
+$V_1$ = (a, b, c)
+
+$E_1$ = ((a, b))
+
+Graph 2:
+
+$V_2$ = (d, e, f)
+
+$E_2$ = ((d, e))
+
+Bijection: $f: V_1 \rightarrow V_2$
+
+f(a) = d
+
+f(b) = e
+
+f(c) = f
+
+The edge (a, b) in $E_1$ is related to the edge (d, e) in $E_2$.
+
+However, the vertex c has no edges and the vertex f has no edges. Therefore, the graphs are not completely connected.
+
+Graphs 1 and 2 are isomorphic but they are not completely connected.
